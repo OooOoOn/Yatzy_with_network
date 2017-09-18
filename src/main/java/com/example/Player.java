@@ -10,10 +10,12 @@ public class Player {
     private int finalScore;
 
 
+
     public Player(String name, String type, int finalScore) {
         this.name = name;
         this.type = type;
         this.finalScore = finalScore;
+
     }
 
     public String getName() {
@@ -23,6 +25,12 @@ public class Player {
     public int getScore() {
         return finalScore;
     }
+
+    public void setScore() {
+
+        this.finalScore = 0;
+    }
+
 
 
     public String Type(){
